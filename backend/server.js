@@ -18,6 +18,10 @@ connectCloudinary()
 app.use(express.json())
 app.use(cors())
 
+app.get('/',(req,res)=>{
+  res.status(200).send("Welcome to Backend");
+}
+)
 // api endpoints
 app.use("/api/user", userRouter)
 app.use("/api/admin", adminRouter)
