@@ -1,4 +1,4 @@
-# Prescripto Full Stack
+# Aarogya Full Stack
 
 A full-stack healthcare application with prediction capabilities for various health conditions including heart disease, diabetes, mental health, and Parkinson's disease.
 
